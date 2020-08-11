@@ -1,0 +1,6 @@
+<%= simple_form_for(@task) do |f| %>
+  <%= f.input :title, input_html: { class: 'special' } %>
+  <%= f.input :details %>
+  <%= f.input :completed %>
+  <%= f.submit class: "btn btn-primary button" %>
+<% end %>
